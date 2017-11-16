@@ -2,9 +2,95 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
     <title>Educacion</title>
   </head>
   <body>
-
+    <header>
+      <svg width="205" height="108" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+        <style type="text/css">.st0{fill:#37B296;}.st1{fill:#5E5E5E;}</style>
+        <g>
+          <title>Layer 1</title>
+          <rect stroke="#000000" id="svg_3" height="107.61009" width="204.750009" y="-0.250005" x="0.250039" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#007f7f"/>
+          <text font-weight="bold" stroke="#000000" transform="matrix(3.132837447966324,0,0,3.132837447966324,-545.9426105613218,-655.1416273883135) " xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_1" y="234.843211" x="207.042432" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff">GGM</text>
+        </g>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Gonzalo Ramiro Garcia Muñoz </h2>
+      <h3>23 de Enero 1990 - San Juan, Argentina</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Incio</a></li>
+        <li><a href="../html/educacion.html">Educacion</a></li>
+        <li><a href="../html/experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article id="Educacion">
+        <h2>Educación</h2>
+        <img src="../img/foto.jpg" alt="foto personal" title="foto personal" width="100px">
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culmino?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="Colegio">
+              <th>2007</th>
+              <th>Santo Tomas de Aquino</th>
+              <th>San Luis, Argentina</th>
+              <th>Si</th>
+            </tr>
+            <tr id="Universidad">
+              <th>2015</th>
+              <th>UNC</th>
+              <th>Cordoba, Argentina</th>
+              <th>No</th>
+            </tr>
+            <tr id="NextU">
+              <th>2017</th>
+              <th>NextU</th>
+              <th>San Luis, Argentina</th>
+              <th>No</th>
+            </tr>
+          </tbody>
+        </table>
+        <h1>Agregar Estudios</h1>
+        <form autocomplete="on" name="Agregar Estudios">
+          <fieldset>
+            <label for="Año" id="Año"><strong>Año:</strong></label>
+              <select name="Año">
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+              </select><br><br>
+              <label for="Institucion" id="Institucion_de_estudio"><strong>Institución:</strong></label>
+                <input type="text" name="Institucion" id="Institucion" required><br><br>
+              <label for="Lugar" id="Lugar_de_estudio"><strong>Lugar:</strong></label>
+                <textarea name="Lugar" rows="5  " cols="25"></textarea><br><br>
+              <label for="¿Culmino?" id="¿Culmino_estudios?"><strong>¿Culmino?</strong></label>
+                <input type="radio" name="Si" id="Si" value="Si">Si
+                <input type="radio" name="No" id="No" value="No">No <br><br>
+              <label for="Enviar" id="Submit"></label>
+                <input type="submit" name="Envia" value="Enviar">
+          </fieldset>
+        </form>
+      </article>
+      <footer>
+        <p> <a href="mailto:gonngarcia@me.com subject=feedback">gonngarcia@me.com</a> / +549 266 664429 / <a href="https://www.behance.net/gonngarcia">https://www.behance.net/gonngarcia</a> </p>
+      </footer>
   </body>
 </html>
